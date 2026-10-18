@@ -1,0 +1,7 @@
+# Optional per-project overrides. Copy this file to local.cmake (gitignored)
+# only when this project needs values different from the defaults; it is
+# included last, so it wins.
+
+# The card takes any Pico-footprint board (pico, pico_w, pico2, pico2_w); the
+# default build targets the Pico 2.
+set(PICO_BOARD "pico_w" CACHE STRING "" FORCE)

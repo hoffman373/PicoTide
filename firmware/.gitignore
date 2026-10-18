@@ -1,0 +1,10 @@
+build/
+local.cmake
+*.uf2
+*.elf
+*.bin
+*.hex
+*.map
+*.dis
+.DS_Store
+
